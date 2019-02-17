@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+}
+.menu{
+    background-color: white;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    transition: 0.5s;
+
+}
+.menu ul li:hover{
+    transform: scale(2) rotate(25deg);
+
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.title{
+    color: #f39c12;
+    padding-left: 10px;
+}
+
+.portfolio-website-section{
+    width: 1250px;
+    height: 200px;
+    border: 1px solid black;
+}
+.portfolio-website-section h1{
+    color: #f39c12;
+    padding-left: 10px;
+}
+.portfolio-website-section p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.opensource-buttons{
+    margin: -15px 0px;
+
+}
+
+.opensource-buttons ul li{
+    display: inline-block;
+    margin: 10px 80px;
+}
+.opensource-buttons ul li a{
+    color: rgb(65, 64, 64);
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
